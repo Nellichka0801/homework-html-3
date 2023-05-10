@@ -1,12 +1,12 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
-}
+} */
 
 body {
     font-family: Roboto;
     font-size: 20px;
-    font-weight: 500px;
+    font-weight: 500px; 
     line-height: 100%;
     font-style: normal;
     color: black;
@@ -16,23 +16,24 @@ a {
     text-decoration: none;
     color: black;
 }
+.center {
+    width: 1274px;
+    width: 100%;
+    margin: 0 auto;
 
+}
 .top{
 
 }
 .header {
-    padding: 40px 0;
-    margin: 0 0 84px 0;
+     padding: 40px 0;
+     margin: 0 0 84px 0;
 }
 
 .header-logo{
-
-}
-.company-name {
-    font-style: unset;
-    font size: 24px;
-    align: left;
-    vertical align: top;
+    width: 143px;
+    width: 100%;
+    height: 30px;
 }
 .menu{
 
@@ -40,9 +41,14 @@ a {
 
 .menu-list {
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 556;
+    width: 100%;
 }
 
-.menu-list-home {
+.menu-list-home a {
     color: #F25822;
 }
 
@@ -53,7 +59,8 @@ a {
 
 }
 .promo-content{
-
+    max-width: 589px;
+    width: 100%;
 }
 .promo-info{
 
@@ -64,28 +71,40 @@ a {
     font-size: 60px;
     align: Left;
     vertical align: Top;
-}
+ }
 .promo-txt {
     color: #888888;
 }
 .promo-btn {
     display: block;
-    border: none;
+
 }
 .button{
     color: #fff;
     background-color: #F25822;
     box-shadow: 4px 4px 8px 0px #F2582233;
-
     border-radius: 8px; 
     offset: 4px, 4px;
+    border: none;
+    max-width: 140px;
+    width: 100%;
+    padding: 15px 36px 16px 35px;
+    box-sizing: border-box;
 }
 .video-link {
     color: #AAAAAA;
+    border: none;
 }
 .promo-photo{
-
+    width: 610px;
+    height: 320px;
 }
+.promo-photo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .promo-logos{
 
 }
